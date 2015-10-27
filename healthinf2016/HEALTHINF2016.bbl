@@ -1,0 +1,84 @@
+\begin{thebibliography}{}
+
+\bibitem[A.~Kalyanpur and Padget, 2002]{Kalyanpur02}
+A.~Kalyanpur, D.~Pastor, S.~B. and Padget, J. (2002).
+\newblock Automatic mapping of owl ontologies into java.
+\newblock In {\em Proceedings of the International Conference on Software
+  Engineering and Knowledge Engineering (SEKE)}.
+
+\bibitem[Ciniburk, 2011]{Ciniburk11}
+Ciniburk, J. (2011).
+\newblock Hilbert-huang transform for erp detection. ph.d. thesis.
+\newblock Technical report, University of West Bohemia, Department of Computer
+  Science and Engineering, Czech Republic.
+
+\bibitem[Ciniburk, 2010]{Ciniburk10}
+Ciniburk, J., M. R. M. P. R.~T. (2010).
+\newblock Erp components detection using wavelet transform and matching pursuit
+  algorithm.
+\newblock In {\em DCII}, Prague.
+
+\bibitem[Goecks et~al., 2010]{goecks2010galaxy}
+Goecks, J., Nekrutenko, A., Taylor, J., and Team, T.~G. (2010).
+\newblock Galaxy: a comprehensive approach for supporting accessible,
+  reproducible, and transparent computational research in the life sciences.
+\newblock {\em Genome Biol}, 11(8):R86.
+
+\bibitem[Hyvarinen and Oja, 2001]{Hyv01}
+Hyvarinen, A., K.~J. and Oja, E. (2001).
+\newblock Independent component analysis.
+\newblock In {\em Adaptive and Learning Systems for Signal Processing}, Prague.
+
+\bibitem[Oren and Decker, 2007]{Oren07}
+Oren, E., D. R. G. S. H.~A. and Decker, S. (2007).
+\newblock Activerdf: object-oriented semantic web programming.
+\newblock In {\em WWW '07: Proceedings of the 16th international conference on
+  World Wide Web}, pages 817--824, New York, NY, USA.
+
+\bibitem[Quian, 2002]{Quian02}
+Quian, S. (2002).
+\newblock Introduction to time-frequency and wavelet transforms.
+\newblock Paris.
+
+\bibitem[Rondik, 2012]{Rondik12}
+Rondik, T. (2012).
+\newblock Methods for detection of erp waveforms in bci systems. state of the
+  art and concept of ph.d. thesis.
+\newblock Technical report, University of West Bohemia, Department of Computer
+  Science and Engineering.
+
+\bibitem[Sanei and Chambers, 2007]{Sanei07}
+Sanei, S. and Chambers, J.~A. (2007).
+\newblock Eeg signal processing.
+\newblock Chippenham (Wiltshire): Antony Rowe Ltd.
+
+\bibitem[Steven, 2005]{Luck05}
+Steven, J.~L. (2005).
+\newblock {\em An Introduction to the Event-Related Potential Technique
+  (Cognitive Neuroscience)}.
+\newblock A Bradford Book.
+
+\bibitem[Sun et~al., 2007]{Sun07}
+Sun, Z., Finkelstein, A., and Ashmore, J. (2007).
+\newblock Using ontology with semantic web services to support modeling in
+  systems biology.
+\newblock In {\em Web Information Systems Engineering – WISE 2007 Workshops},
+  volume 4832 of {\em Lecture Notes in Computer Science}, pages 41--51.
+
+\bibitem[Vareka, 2012]{Vareka12}
+Vareka, L. (2012).
+\newblock Matching pursuit for p300-based brain computer interfaces.
+\newblock Prague.
+
+\bibitem[Vidal, 1977]{Vidal77}
+Vidal, J.~J. (1977).
+\newblock Real-time detection of brain events in eeg.
+\newblock In {\em Proceedings of the IEEE}, volume~65, pages 633--641.
+
+\bibitem[Watson and Lord, 2007]{Watson07}
+Watson, P., J. T. P. G. G. F. A. J. F. M. L.~B. and Lord, P. (2007).
+\newblock The carmen neuroscience server.
+\newblock In {\em Proceedings of the UK e-Science All hands Meeting}, pages
+  135--141.
+
+\end{thebibliography}
