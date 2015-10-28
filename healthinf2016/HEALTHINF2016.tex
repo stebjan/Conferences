@@ -28,7 +28,6 @@
 
 \keywords{neuroinformatics, electroencephalography, event-related potentials, analytic methods, metadata, semantic web, ontology}
 
-\abstract{The growing electrophysiology research leads to collecting more data and developing new analytic methods and algorithms. Data description and metadata definition is the aim of numerous papers, for complex data analysis, proper medatada definition for analytic methods is also necessary. Metadata description in suitable technology (e.g. Semantic web) enables processing metadata by computers. This allows developing automatic system for data analysis or constructing complex workflows. Because of suitable ontology describing analytic methods does not exist, authors present a custom ontology that is proposed to be discussed within the scientific community. In this paper, the Semantic web technologies are briefly introduced. Then, medatada definition and ontology construction is presented.}
 
 \onecolumn \maketitle \normalsize \vfill
 
@@ -64,7 +63,6 @@ The CARMEN Portal \cite{Watson07} (Code Analysis, Repository \& Modelling for e-
 
 The Galaxy project \cite{goecks2010galaxy, blankenberg2010galaxy, giardine2005galaxy} is an open source workflows engine. A registered user is able to use methods and workflow tools provided by this system. Galaxy is focused on genome analysis; therefore, this system contains methods suitable for genome analysis. The methods are well described for the users with description of parameters and examples. It also includes ontology OBI (ontology for biomedical investigation) for formal description of semantic restrictions.
 
-The Wings is an open source workflows engine. Its source code is available at GitHub. It is portal based system, so it is downloadable and runnable on local servers. Methods are described by ontologies (RDF). This description includes definition of semantic constrains such as allowed values, input/output cardinality, range, etc. The main disadvantage is a small community of developers and bugs (e.g. problem with adding a new method into the Wings system) that we found while trying to deploy the system on a server. 
 
 The overview shows that formal description of methods in terms of semantic constrains (e.g. allowed values) exists. However, proper description of input/output parameters allowing semantic comparison of methods is still not satisfactorily solved. Therefore, we propose description of methods that allows such comparison in this paper.
 
@@ -73,16 +71,16 @@ The overview shows that formal description of methods in terms of semantic const
 
 \noindent We widely use the following signal preprocessing and processing methods: Averaging, FIR Filters, Matching Pursuit, Discrete and Continuous Wavelet transform, Fast Fourier transform, Hilbert-Huang transform, and neural networks. This section briefly describes principles of these algorithms. The metadata definition in the rest of this paper will designed for these methods. We admit that the set of methods is not limited; therefore, the design will allow extension of metadata definition.
 
-Averaging \cite{Sanei07} is a common method for highlighting ERP waveforms. During the averaging of  the  same  kind  of  ERP  waveforms,  the  noise  is  reduced  and  the  waveform  is  highlighted. Since the background  EEG  has a higher  amplitude  then  ERP  waveforms, the averaging technique highlights the waveforms and suppress the background EEG \cite{Vidal77}. 
- 
-The Matching Pursuit method has been frequently used for continuous EEG processing. It decomposes any signal into a linear expansion of functions. At each iteration, a waveform is chosen in order to best match the 
-significant structures of the signal. Typically, this part is approximated by a Gabor atom, which has the highest scalar 
-product with the original signal, and then it is subtracted from the signal. This process is repeated until the whole signal is 
-approximated by Gabor atoms with an acceptable error \cite{Vareka12}. For displaying results we implemented the time-frequency 
-transformation known as Wigner-Ville transformation \cite{Quian02}. The input of this transformation is the set of chosen atoms. 
+Averaging \cite{Sanei07} is a common method for highlighting ERP waveforms. During the averaging of  the  same  kind  of  ERP  waveforms,  the  noise  is  reduced  and  the  waveform  is  highlighted. Since the background  EEG  has a higher  amplitude  then  ERP  waveforms, the averaging technique highlights the waveforms and suppress the background EEG \cite{Vidal77}.
 
-Wavelet Transformation (WT) \cite{Ciniburk10} is a suitable method for analyzing and processing non-stationary signals such as EEG. 
-WT has a good time and frequency localization, which is necessary for ERP detection. For EEG signal processing it is 
+The Matching Pursuit method has been frequently used for continuous EEG processing. It decomposes any signal into a linear expansion of functions. At each iteration, a waveform is chosen in order to best match the
+significant structures of the signal. Typically, this part is approximated by a Gabor atom, which has the highest scalar
+product with the original signal, and then it is subtracted from the signal. This process is repeated until the whole signal is
+approximated by Gabor atoms with an acceptable error \cite{Vareka12}. For displaying results we implemented the time-frequency
+transformation known as Wigner-Ville transformation \cite{Quian02}. The input of this transformation is the set of chosen atoms.
+
+Wavelet Transformation (WT) \cite{Ciniburk10} is a suitable method for analyzing and processing non-stationary signals such as EEG.
+WT has a good time and frequency localization, which is necessary for ERP detection. For EEG signal processing it is
 possible to use Continuous Wavelet Transformation or Discrete Wavelet Transformation. For visualization of wavelet result, the scalogram (Figure 1) is used.
 
 \begin{figure}[!h]
@@ -93,11 +91,11 @@ possible to use Continuous Wavelet Transformation or Discrete Wavelet Transforma
   \label{fig:scalogram}
  \end{figure}
 
-The Fourier transform converts waveform data in the time domain into the frequency domain. Since artifacts usually have higher amplitude and basic frequency than a normal ERP component, this technique is useful for detecting artifacts 
-within the EEG or ERP signal. 
+The Fourier transform converts waveform data in the time domain into the frequency domain. Since artifacts usually have higher amplitude and basic frequency than a normal ERP component, this technique is useful for detecting artifacts
+within the EEG or ERP signal.
 
-Independent Component Analysis (ICA) \cite{Hyv01} is a method for blind signal separation and signal deconvolution. 
-In the EEG/ERP domain, ICA can be used for artifact removal, ERPs detection, and - generally speaking - for detection 
+Independent Component Analysis (ICA) \cite{Hyv01} is a method for blind signal separation and signal deconvolution.
+In the EEG/ERP domain, ICA can be used for artifact removal, ERPs detection, and - generally speaking - for detection
 and separation of every signal which is independent on EEG activity.
 
 The  Hilbert-Huang  transform  (HHT)  was  designed  to  analyze  nonlinear  and  non-stationary signal. It includes detection of ERP waveforms.
@@ -116,7 +114,7 @@ provides more complex constraints on the types of resources
 and their properties. OWL comes with a larger vocabulary,
 greater machine interpretability and stronger syntax than RDF.
 
-We use the OWL for developing an ontology for description of the analytic methods. Ontology is the theory of conceptualisation. In computing, ontology 
+We use the OWL for developing an ontology for description of the analytic methods. Ontology is the theory of conceptualisation. In computing, ontology
 provides a means of formally representing the structure of objects and relations in an information system and associating meaning with them \cite{Sun07}.
 
 
@@ -132,11 +130,11 @@ processing of EEG/ERP data. We defined the following metadata structure:
 \begin{itemize}
 	\item Method - It describes a method including its name and input/output types. It also includes definitions of restrictions (e.g. name is a string).
 	
-	\item Input/Output - It describes input/output types used by analytic methods. There are various types that methods require or provide. It includes signal such as EEG or ECG, and its restrictions (e.g. signal has values of double). It also includes coefficients from Wavelet transform, or atom provided by Matching Pursuit. Atom is composed of scale, frequency, modulus, phase, and position represented as double values. 
+	\item Input/Output - It describes input/output types used by analytic methods. There are various types that methods require or provide. It includes signal such as EEG or ECG, and its restrictions (e.g. signal has values of double). It also includes coefficients from Wavelet transform, or atom provided by Matching Pursuit. Atom is composed of scale, frequency, modulus, phase, and position represented as double values.
 	
 \end{itemize}
 
-The figure 2 shows the structure of Signal and Atom input/output types. 
+The figure 2 shows the structure of Signal and Atom input/output types.
 
 \begin{figure}[!h]
 
@@ -240,12 +238,12 @@ We also defined properties hasInput and hasOutput. Domain of these properties is
 For these classes, we defined an object property hasSignalValue, which range is the class SignalValue leading to a data property named Value with defined type as xsd:double.
 
 \item Class Coefficient represent generic type of some coefficient (for classes in this list that include coefficients as their object properties). It has coefficient value (defined as object property) that is the double value.
-  
+
 \item Classes CWTCoefficients and DWTCoefficients represent return type of methods Continuous Wavelet Transform resp. Discrete Wavelet Transform. It includes set of computed coefficients.
 
-\item Class ComplexFrequency represents composition of RealFrequency and ImaginaryFrequency classes. This type is typically used as an output of time-frequency analytic methods such as Fast Fourier Transform. 
+\item Class ComplexFrequency represents composition of RealFrequency and ImaginaryFrequency classes. This type is typically used as an output of time-frequency analytic methods such as Fast Fourier Transform.
 
-It has two object properties: hasRealValue and hasImaginaryValue. Range of these properties are RealValue class resp. ImaginaryValue class. 
+It has two object properties: hasRealValue and hasImaginaryValue. Range of these properties are RealValue class resp. ImaginaryValue class.
 
 \item Class Atom represents output type of the Matching Pursuit method. It includes five coefficient types (classes Frequency, Scale, Modulus, Position, and Phase) and five corresponding object properties (hasFrequency,...).
 \end{itemize}
@@ -313,7 +311,7 @@ eegMethods#hasSignalValue">
 
   \centering
    {\epsfig{file = classTree.eps, width = 6 cm}}
-  \caption{Tree of classes} 
+  \caption{Tree of classes}
   \label{fig:classTree}
  \end{figure}
 
