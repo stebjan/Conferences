@@ -97,27 +97,23 @@ The  Hilbert-Huang  transform  (HHT)  was  designed  to  analyze  nonlinear  and
 
 \section{\uppercase{Metadata Definition}}
 
-\noindent Because of lack of suitable description of methods used in electrophysiology, we propose a custom metadata description. Describing analytic methods at a more specific level for workflow construction requires a detailed analysis of the method's operations in terms of its inputs and outputs.
+\noindent Because there is no suitable description of the methods used in electrophysiology, we proposed their semantic description by using a set of metadata. Describing analytic methods at a more specific level for workflow construction requires a detailed analysis of the methods' operations in terms of semantics of their and inputs and outputs.
 
-The specification of the metadata originated from our experience
-with data analysis, co-workers from cooperating institutions,
-books describing principles of EEG/ERP design and data
-recording (e.g. \cite{Luck05}) and numerous scientific papers describing
-processing of EEG/ERP data. We defined the following metadata structure:
+The metadata identification originated from our experience with data analysis, expertise of co-workers from cooperating institutions, books describing principles of EEG/ERP design and data recording (e.g. \cite{Luck05}), and numerous scientific papers describing processing of EEG/ERP data. We defined the following metadata and their structure:
 \begin{itemize}
 	\item Method - It describes a method including its name and input/output types. It also includes definitions of restrictions (e.g. name is a string).
 	
-	\item Input/Output - It describes input/output types used by analytic methods. There are various types that methods require or provide. It includes signal such as EEG or ECG, and its restrictions (e.g. signal has values of double). It also includes coefficients from Wavelet transform, or atom provided by Matching Pursuit. Atom is composed of scale, frequency, modulus, phase, and position represented as double values.
+	\item Input/Output - It describes input/output types used by analytic methods. It includes signal such as EEG or ECG, and its restrictions (e.g. signal has values of double), coefficients from the Wavelet transform, or atom provided by the Matching Pursuit method (the atom is composed of scale, frequency, modulus, phase, and position represented as double values).
 	
 \end{itemize}
 
-The figure 2 shows the structure of Signal and Atom input/output types.
+Figure 2 shows the structure of Signal and Atom input/output types.
 
 \begin{figure}[!h]
 
   \centering
    {\epsfig{file = SignalAndAtom.eps, width = 7.5cm}}
-  \caption{a) Structure of signal as an I/O type, b) Structure of an atom }
+  \caption{a) Structure of Signal as an I/O type, b) Structure of Atom }
   \label{fig:SignalAndAtom}
  \end{figure}
 
