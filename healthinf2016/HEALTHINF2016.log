@@ -1,21 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=latex 2013.10.14)  21 OCT 2015 15:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.10.27)  27 OCT 2015 14:00
 entering extended mode
 **HEALTHINF2016.tex
-(C:\studium\healthinf2016\HEALTHINF2016.tex
+
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\HEALTHINF20
+16.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\studium\healthinf2016\article.cls
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\article.cls
+"
 Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+(D:\MikTex\tex\latex\base\size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -29,29 +32,27 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+) (D:\MikTex\tex\latex\graphics\epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(D:\MikTex\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(D:\MikTex\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(D:\MikTex\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(D:\MikTex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(D:\MikTex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+(D:\MikTex\tex\latex\graphics\dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
@@ -60,7 +61,7 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 \epsfxsize=\dimen105
 \epsfysize=\dimen106
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+(D:\MikTex\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
@@ -76,11 +77,11 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+(D:\MikTex\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(D:\MikTex\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
@@ -92,11 +93,10 @@ LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count93
 \calc@Cskip=\skip51
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+) (D:\MikTex\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(D:\MikTex\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -104,24 +104,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(D:\MikTex\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(D:\MikTex\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen111
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(D:\MikTex\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(D:\MikTex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen112
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(D:\MikTex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count94
@@ -162,7 +162,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+(D:\MikTex\tex\latex\amscls\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -173,8 +173,7 @@ Package: amsthm 2004/08/06 v2.20
 \thm@postskip=\skip56
 \thm@headsep=\skip57
 \dth@everypar=\toks26
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+) (D:\MikTex\tex\latex\tools\multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count106
 \mult@box=\box28
@@ -221,8 +220,7 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
 \multicol@sort@counter=\count114
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
+) (D:\MikTex\tex\latex\pslatex\pslatex.sty
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -257,16 +255,19 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
 )
-(C:\studium\healthinf2016\apalike.sty
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\apalike.sty
+"
 \bibhang=\skip60
-) (C:\studium\healthinf2016\SCITEPRESS.sty
+)
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\SCITEPRESS.
+sty"
 Conference Style for SCITEPRESS for LaTeX 2e -- version of April 2015
 \titlebox=\skip61
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+) (D:\MikTex\tex\latex\caption\caption.sty
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+(D:\MikTex\tex\latex\caption\caption3.sty
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen128
 \captionmargin@=\dimen129
@@ -279,7 +280,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count115
 Package caption Info: subfigure package is loaded.
 )
-(C:\studium\healthinf2016\HEALTHINF2016.aux)
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\HEALTHINF20
+16.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
@@ -289,8 +291,7 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 19.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 19
 .
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ (D:\MikTex\tex\latex\psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 19.
@@ -306,29 +307,27 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 33.
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 33
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+(D:\MikTex\tex\latex\psnfss\ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 33
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
+(D:\MikTex\tex\latex\psnfss\omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+psycm on input line 33
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
+(D:\MikTex\tex\latex\psnfss\omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 33.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (D:\MikTex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 33.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(D:\MikTex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
@@ -356,7 +355,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 43.
 
 Underfull \hbox (badness 1527) in paragraph at lines 57--58
-\OT1/ptm/m/n/10 This sec-tion brings an overview of ex-ist-ing ap-
+[]\OT1/ptm/m/n/10 This sec-tion brings an overview of ex-ist-ing ap-
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -392,7 +391,7 @@ LaTeX Warning: Citation ` giardine2005galaxy' on page 2 undefined on input line
 File: scalogram.eps Graphic file (type eps)
 <scalogram.eps>
 Underfull \hbox (badness 1502) in paragraph at lines 103--105
-[]\OT1/ptm/m/n/10 The Hilbert-Huang trans-form (HHT) was de-
+[][]\OT1/ptm/m/n/10 The Hilbert-Huang trans-form (HHT) was de-
  []
 
 [2]
@@ -408,7 +407,7 @@ Underfull \hbox (badness 2027) in paragraph at lines 151--152
 
 
 Underfull \hbox (badness 1348) in paragraph at lines 177--183
-[]\OT1/ptm/m/n/10 structural in-her-i-tance: in object-oriented pro-
+[][]\OT1/ptm/m/n/10 structural in-her-i-tance: in object-oriented pro-
  []
 
 [3]
@@ -423,7 +422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]\OT1/ptm/m/n/10 Detection of
+[][]\OT1/ptm/m/n/10 Detection of
  []
 
 
@@ -433,7 +432,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--211
-[]\OT1/ptm/m/n/10 Fourier
+[][]\OT1/ptm/m/n/10 Fourier
  []
 
 
@@ -448,7 +447,7 @@ Underfull \hbox (badness 2582) in paragraph at lines 211--212
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 213--213
-[]\OT1/ptm/m/n/10 Wavelet
+[][]\OT1/ptm/m/n/10 Wavelet
  []
 
 
@@ -458,7 +457,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--213
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 215--215
-[]\OT1/ptm/m/n/10 Matching
+[][]\OT1/ptm/m/n/10 Matching
  []
 
 
@@ -483,7 +482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--219
-[]\OT1/ptm/m/n/10 Hilbert-
+[][]\OT1/ptm/m/n/10 Hilbert-
  []
 
 
@@ -503,7 +502,7 @@ Underfull \hbox (badness 6641) in paragraph at lines 219--220
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 221--221
-[]\OT1/ptm/m/n/10 Neural net-
+[][]\OT1/ptm/m/n/10 Neural net-
  []
 
 
@@ -521,7 +520,7 @@ Underfull \hbox (badness 1845) in paragraph at lines 244--245
 
 
 Underfull \hbox (badness 2351) in paragraph at lines 246--247
-[]\OT1/ptm/m/n/10 Class Com-plexFre-quency rep-re-sents com-po-si-
+[][]\OT1/ptm/m/n/10 Class Com-plexFre-quency rep-re-sents com-po-si-
  []
 
 
@@ -537,24 +536,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 323--327
-\OT1/ptm/m/n/10 This pa-per sum-ma-rizes meth-ods suit-able for
+[]\OT1/ptm/m/n/10 This pa-per sum-ma-rizes meth-ods suit-able for
  []
 
-[5] (C:\studium\healthinf2016\HEALTHINF2016.bbl
+[5]
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\HEALTHINF20
+16.bbl"
 Missing character: There is no � in font ptmri7t!
 Missing character: There is no � in font ptmri7t!
 Missing character: There is no � in font ptmri7t!
 ) [6
 
 ]
-(C:\studium\healthinf2016\HEALTHINF2016.aux) ) 
+("C:\Users\Roman Mouček\Documents\GitHub\Conferences\healthinf2016\HEALTHINF20
+16.aux") ) 
 Here is how much of TeX's memory you used:
- 3232 strings out of 493922
- 46559 string characters out of 3144874
- 113532 words of memory out of 3000000
- 6494 multiletter control sequences out of 15000+200000
+ 3244 strings out of 493922
+ 45780 string characters out of 3154498
+ 113785 words of memory out of 3000000
+ 6506 multiletter control sequences out of 15000+200000
  36267 words of font info for 96 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,9n,40p,825b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on HEALTHINF2016.dvi (6 pages, 31880 bytes).
+Output written on HEALTHINF2016.dvi (6 pages, 40316 bytes).
