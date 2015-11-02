@@ -25,6 +25,7 @@
 \email{\{stebjan, moucek\}@kiv.zcu.cz}
 }
 
+
 \keywords{neuroinformatics, electroencephalography, event-related potentials, analytic methods, metadata, semantic web, ontology}
 
 \abstract{The growing electrophysiology research leads to the collection of large amounts of experimental data and consequently to the broader application, eventually development of analytic methods, algorithms, and workflows. Then appropriate metadata definition and related data description is critical for long term storage and later identification of experimental data. Although a detailed description of electrophysiology data has not become a commonly used procedure so far, publicly available and well described data have started to appear in professional journals. The next reasonable step is to shift attention to the analysis of electrophysiology data. Since the analysis of this kind of data is rather complex, identification and appropriate description of used methods, algorithms and workflows would help reproducibility of the research in the field. This description would also allow developing automatic or semi-automatic systems for data analysis or constructing complex workflows in a more user friendly way. Based on these assumptions authors present a custom ontology for description of analytic methods and workflows in electrophysiology that is proposed to be discussed within the scientific community.}
@@ -34,21 +35,16 @@
 \section{\uppercase{Introduction}}
 \label{sec:introduction}
 
-\noindent Our research group at [anonymous%University of West Bohemia in Pilsen]
+\noindent Our research group at (anonymous) %University of West Bohemia in Pilsen]
 specializes in the research of human brain activity. We use the methods and techniques of electroencephalography (EEG) and event-related potentials (ERP). As the electrophysiology research grows, larger amounts of data are collected and more complex methods and workflows are used for data analysis. Typically, electrophysiology workflows used in our laboratory include preprocessing methods (e.g. filtering, baseline correction), signal processing methods (for example feature extraction methods, clustering and classification methods), and postprocessing (usually statistical) methods. To make the application of complex analytic methods and workflows reproducible, a need for identification and sharing of their appropriate descriptions arises. These descriptions would also allow developing automatic or semi-automatic systems for data analysis or constructing complex workflows in a more user friendly way. Then by defining proper metadata structures for analytic methods and workflows and by using suitable technologies for machine-processing the workflow systems can ensure the following procedures:
 
 \begin{itemize}
-	\item Checking the syntactic compatibility of methods (the output of the previous method is supplied as an input to the following method)
-	
-	\item Checking the semantic compatibility of methods (connection of methods makes sense in terms of their semantic and also semantic of their output and input)
-	
-	\item Suggesting, which method is suitable to put next into workflow
-	
-\end{itemize}
 
-\item to check the syntactic compatibility of the used methods (the output of the previous method is used as an input to the following method
+\item to check the syntactic compatibility of the used methods (the output of the previous method is used as an input to the following method)
 \item to check the semantic compatibility of the used methods (connection of methods has sense in terms of their semantic usage within the processing chain and also semantic compatibility of transferred parameters)
 \item to suggest, which method is suitable to be put next into the workflow
+
+\end{itemize}
 
 In this paper, we present a definition of the metadata structure that describes the methods used in analytic processing of electrophysiology data in our laboratory. This structure thus helps to identify the semantic compatibility of the methods while constructing workflows. The rest of this paper is organized as follows: Section II describes the analytic methods that we use for processing of electrophysiology data. It also briefly presents the Semantic web technologies and existing ontologies. Section III deals with the metadata definition. The selection of a suitable technology is provided in Section IV and the proposed ontology is presented in Section V. This section is followed by conclusions and future work description.
 

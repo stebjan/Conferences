@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.10.27)  27 OCT 2015 14:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.10.27)  2 NOV 2015 11:20
 entering extended mode
 **HEALTHINF2016.tex
 
@@ -303,45 +303,6 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 33.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 33
-.
-
-(D:\MikTex\tex\latex\psnfss\ot1ptmcm.fd
-File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 33
-.
-
-(D:\MikTex\tex\latex\psnfss\omlptmcm.fd
-File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 33
-.
-
-(D:\MikTex\tex\latex\psnfss\omxpsycm.fd
-File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
- (D:\MikTex\tex\latex\amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
-(D:\MikTex\tex\latex\amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.69997> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <9> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 33.
 
@@ -354,14 +315,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 43.
 
-Underfull \hbox (badness 1527) in paragraph at lines 57--58
+Underfull \hbox (badness 1527) in paragraph at lines 53--54
 []\OT1/ptm/m/n/10 This sec-tion brings an overview of ex-ist-ing ap-
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
 
-Underfull \vbox (badness 4673) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
@@ -369,144 +328,182 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1616) in paragraph at lines 63--64
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+
+Underfull \hbox (badness 1552) in paragraph at lines 57--58
+[]\OT1/ptm/m/n/10 The CAR-MEN Por-tal (Wat-son and Lord, 2007)
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 57--58
 \OT1/ptm/m/n/10 (Code Anal-y-sis, Repos-i-tory & Mod-elling for e-
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 63--64
+Underfull \hbox (badness 1515) in paragraph at lines 57--58
 \OT1/ptm/m/n/10 Neuroscience) de-vel-oped by the British Na-tional
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
 
 LaTeX Warning: Citation ` blankenberg2010galaxy' on page 2 undefined on input l
-ine 65.
+ine 59.
 
 
 LaTeX Warning: Citation ` giardine2005galaxy' on page 2 undefined on input line
- 65.
+ 59.
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 67--68
+\OT1/ptm/m/n/10 Hilbert-Huang trans-form, and var-i-ous neu-ral net-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: scalogram.eps Graphic file (type eps)
-<scalogram.eps>
-Underfull \hbox (badness 1502) in paragraph at lines 103--105
+
+<scalogram.eps> [2]
+Underfull \hbox (badness 1502) in paragraph at lines 88--89
 [][]\OT1/ptm/m/n/10 The Hilbert-Huang trans-form (HHT) was de-
  []
 
-[2]
-Underfull \hbox (badness 1024) in paragraph at lines 108--113
+
+Underfull \hbox (badness 1024) in paragraph at lines 92--93
 \OT1/ptm/m/n/10 first layer is called Re-source De-scrip-tion Frame-
  []
 
-File: SignalAndAtom.eps Graphic file (type eps)
-<SignalAndAtom.eps>
-Underfull \hbox (badness 2027) in paragraph at lines 151--152
-\OT1/ptm/m/n/10 Se-man-tic Web tech-nolo-gies. The se-man-tics of
- []
 
-
-Underfull \hbox (badness 1348) in paragraph at lines 177--183
+Underfull \hbox (badness 1348) in paragraph at lines 104--105
 [][]\OT1/ptm/m/n/10 structural in-her-i-tance: in object-oriented pro-
  []
 
 [3]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 205.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 205.
+File: SignalAndAtom.eps Graphic file (type eps)
+ <SignalAndAtom.eps>
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 14
+1.
+ (D:\MikTex\tex\latex\psnfss\ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 14
+1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+(D:\MikTex\tex\latex\psnfss\omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 14
+1.
+
+(D:\MikTex\tex\latex\psnfss\omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 141.
+ (D:\MikTex\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 141.
+(D:\MikTex\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\OT1/ptm/m/n/10 Output pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 [][]\OT1/ptm/m/n/10 Detection of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []\OT1/ptm/m/n/10 Set of de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]\OT1/ptm/m/n/10 Fourier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []\OT1/ptm/m/n/10 EEG/ERP
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 211--212
+Underfull \hbox (badness 2582) in paragraph at lines 147--148
 []\OT1/ptm/m/n/10 Detected fre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 [][]\OT1/ptm/m/n/10 Wavelet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 []\OT1/ptm/m/n/10 EEG/ERP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][]\OT1/ptm/m/n/10 Matching
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []\OT1/ptm/m/n/10 EEG/ERP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 []\OT1/ptm/m/n/10 List of se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 []\OT1/ptm/m/n/10 EEG/ERP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []\OT1/ptm/m/n/10 ICA com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 [][]\OT1/ptm/m/n/10 Hilbert-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []\OT1/ptm/m/n/10 EEG/ERP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 []\OT1/ptm/m/n/10 Set of In-
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 219--220
+Underfull \hbox (badness 6641) in paragraph at lines 155--156
 \OT1/ptm/m/n/10 trin-sic Mode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 [][]\OT1/ptm/m/n/10 Neural net-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\OT1/ptm/m/n/10 Vector of
  []
 
@@ -514,17 +511,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 244--245
-\OT1/ptm/m/n/10 rep-re-sent re-turn type of meth-ods Con-tin-u-ous
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 246--247
+Underfull \hbox (badness 2351) in paragraph at lines 178--179
 [][]\OT1/ptm/m/n/10 Class Com-plexFre-quency rep-re-sents com-po-si-
  []
 
 
-Overfull \hbox (2.31468pt too wide) in paragraph at lines 274--274
+Overfull \hbox (2.31468pt too wide) in paragraph at lines 204--204
 []\OT1/pcr/m/n/9 "http://www.semanticweb.org/eegMethods#Signal">[] 
  []
 
@@ -535,28 +527,22 @@ File: classTree.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--327
-[]\OT1/ptm/m/n/10 This pa-per sum-ma-rizes meth-ods suit-able for
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[5]
+ [5]
 ("C:\Users\Roman Mouƒçek\Documents\GitHub\Conferences\healthinf2016\HEALTHINF20
-16.bbl"
-Missing character: There is no ‚ in font ptmri7t!
-Missing character: There is no Ä in font ptmri7t!
-Missing character: There is no ì in font ptmri7t!
-) [6
+16.bbl") [6
 
 ]
 ("C:\Users\Roman Mouƒçek\Documents\GitHub\Conferences\healthinf2016\HEALTHINF20
 16.aux") ) 
 Here is how much of TeX's memory you used:
- 3244 strings out of 493922
- 45780 string characters out of 3154498
- 113785 words of memory out of 3000000
- 6506 multiletter control sequences out of 15000+200000
- 36267 words of font info for 96 fonts, out of 3000000 for 9000
+ 3188 strings out of 493922
+ 44963 string characters out of 3154498
+ 112785 words of memory out of 3000000
+ 6452 multiletter control sequences out of 15000+200000
+ 18655 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,9n,40p,825b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,40p,1245b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on HEALTHINF2016.dvi (6 pages, 40316 bytes).
+Output written on HEALTHINF2016.dvi (6 pages, 39544 bytes).
