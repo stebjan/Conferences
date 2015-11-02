@@ -115,7 +115,7 @@ There are substantial differences between classic object-oriented languages such
 
 The main advantage of Semantic Web technologies (e.g. RDF or OWL language) is the ability to evolve during runtime. Since newly created or added methods have to be well described, an extendable metadata definition is necessary. Easy reusability of classes and properties is also crucial, therefore the Semantic Web concept and technologies were chosen for description of the analytic methods described above.
 
-\section{\uppercase{Metadata Definition}}
+\section{\uppercase{Metadata Definition and Ontology Development}}
 
 \noindent Because there is no suitable description of the methods used in electrophysiology, we proposed their semantic description by using a set of metadata. Describing analytic methods at a more specific level for workflow construction requires a detailed analysis of the methods' operations in terms of semantics of their and inputs and outputs.
 
@@ -137,14 +137,11 @@ Figure 2 shows the structure of Signal and Atom input/output types.
   \label{fig:SignalAndAtom}
  \end{figure}
 
-
-\section{\uppercase{Ontology Development}}
-
-\noindent This section presents development of the ontology including metadata definition of methods introduced in the section 2.2. Table 1 brings an overview of these methods with input/output parameter(s) types.
+Defining metadata we continued with the development of the ontology for analytic methods introduced in Section 2.2. Table 1 brings an overview of these methods enriched with input/output parameter(s) types.
 
 
 \begin{table}[h]
-\caption{An overview of methods and parameters}\label{tab:example1} \centering
+\caption{Overview of methods and parameters}\label{tab:example1} \centering
 \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|}
   \hline
   Method name & Input parameter(s) & Output parameter(s) \\
@@ -167,33 +164,27 @@ Figure 2 shows the structure of Signal and Atom input/output types.
 \end{table}
 
 
-For development of the ontology, we used Protege, which is a free, open-source ontology editor and framework for building intelligent systems.
-
-We defined the following terms for the semantic group method:
+For the ontology development we used Protege, which is a free, open-source ontology editor and framework for building intelligent systems. The following terms were defined for the semantic group method:
 \begin{itemize}
 \item Class Method and its named individuals (DetectionOfEpochs, Averaging, CWT, DWT, FFT, FastICA, FIR, and MatchingPursuit)
-\item Class IOType representing general input/output type
+\item Class IOType representing general input/output type (any class or individual)
 \end{itemize}
 
-We also defined properties hasInput and hasOutput. Domain of these properties is the class Method, range is the class IOType. IOType represents any class or individual of the input/output semantic group. For this group, we defined following set of terms:
+We also defined properties hasInput and hasOutput. The class Method is a domain class for these properties and the class IOType defines their range. The class IOType has the following subclasses:
 
 \begin{itemize}
-\item Class Signal (example of this class is given below) represents set of values (signal amplitudes) and also individuals such as eegSignal, ecgSignal, ...). There are subclasses of this class: Epoch, FilteredSignal, and ReconstructedSignal.
+\item Class Signal (an example of this class is given below) represents a set of values (signal amplitudes) and individuals such as eegSignal, ecgSignal, ...). Epoch, FilteredSignal, and ReconstructedSignal are subclasses of this class. For these classes we defined an object property hasSignalValue, which range is the class SignalValue leading to a data property named Value with the defined type xsd:double.
 
-For these classes, we defined an object property hasSignalValue, which range is the class SignalValue leading to a data property named Value with defined type as xsd:double.
+\item Class Coefficient represents a generic type for a coefficient (for classes in this list that include coefficients as their object properties). The coefficient value defined as object property is of the double value.
 
-\item Class Coefficient represent generic type of some coefficient (for classes in this list that include coefficients as their object properties). It has coefficient value (defined as object property) that is the double value.
+\item Classes CWTCoefficients and DWTCoefficients are computed coefficients that represent the return type of the methods Continuous Wavelet Transform resp. Discrete Wavelet Transform.
 
-\item Classes CWTCoefficients and DWTCoefficients represent return type of methods Continuous Wavelet Transform resp. Discrete Wavelet Transform. It includes set of computed coefficients.
+\item Class ComplexFrequency represents composition of RealFrequency and ImaginaryFrequency classes. This type is typically used as an output of time-frequency analytic methods such as Fast Fourier Transform. It has two object properties: hasRealValue and hasImaginaryValue. The properties range are RealValue class resp. ImaginaryValue class.
 
-\item Class ComplexFrequency represents composition of RealFrequency and ImaginaryFrequency classes. This type is typically used as an output of time-frequency analytic methods such as Fast Fourier Transform.
-
-It has two object properties: hasRealValue and hasImaginaryValue. Range of these properties are RealValue class resp. ImaginaryValue class.
-
-\item Class Atom represents output type of the Matching Pursuit method. It includes five coefficient types (classes Frequency, Scale, Modulus, Position, and Phase) and five corresponding object properties (hasFrequency,...).
+\item Class Atom represents the output type of the Matching Pursuit method. It includes five coefficient types (classes Frequency, Scale, Modulus, Position, and Phase) and five corresponding object properties (hasFrequency,...).
 \end{itemize}
 
-Below is shown the class Signal, the object property hasSignalValue, and the data property Value.
+Below an RDF example containing the class Signal, the object property hasSignalValue, and the data property Value is shown.
 
 \begin{small}
 \begin{verbatim}
@@ -250,13 +241,13 @@ eegMethods#hasSignalValue">
 \end{verbatim}
 \end{small}
 
-\noindent The figure 3 shows the tree of defined classes provided by the Protege.
+\noindent Figure 3 shows a tree of defined classes provided by the Protege.
 
 \begin{figure}[!h]
 
   \centering
    {\epsfig{file = classTree.eps, width = 6 cm}}
-  \caption{Tree of classes}
+  \caption{Tree of classes in Protege}
   \label{fig:classTree}
  \end{figure}
 
