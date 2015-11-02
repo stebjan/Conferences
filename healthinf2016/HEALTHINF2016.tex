@@ -20,9 +20,8 @@
 
 \title{Ontology Based Description of Analytic Methods for Electrophysiology}
 
-\author{\authorname{Jan Stebetak\sup{1}, Roman Moucek\sup{2}}
-\affiliation{\sup{1}Department of Computer Science and Engineering, University of West Bohemia, Univerzitni 8, Pilsen, Czech Republic}
-\affiliation{\sup{2}NTIS}
+\author{\authorname{Jan Stebetak, Roman Moucek}
+\affiliation{Department of Computer Science and Engineering, University of West Bohemia, Univerzitni 8, Pilsen, Czech Republic}
 \email{\{stebjan, moucek\}@kiv.zcu.cz}
 }
 
@@ -48,41 +47,35 @@ specializes in the research of human brain activity. We use the methods and tech
 \end{itemize}
 
 \item to check the syntactic compatibility of the used methods (the output of the previous method is used as an input to the following method
-\item to check the semantic compatibility of the used methods (connection of methods has sense in terms of their semantic usage within the processing chain and also semantic compatibility of transferred parameters) 
+\item to check the semantic compatibility of the used methods (connection of methods has sense in terms of their semantic usage within the processing chain and also semantic compatibility of transferred parameters)
 \item to suggest, which method is suitable to be put next into the workflow
 
 In this paper, we present a definition of the metadata structure that describes the methods used in analytic processing of electrophysiology data in our laboratory. This structure thus helps to identify the semantic compatibility of the methods while constructing workflows. The rest of this paper is organized as follows: Section II describes the analytic methods that we use for processing of electrophysiology data. It also briefly presents the Semantic web technologies and existing ontologies. Section III deals with the metadata definition. The selection of a suitable technology is provided in Section IV and the proposed ontology is presented in Section V. This section is followed by conclusions and future work description.
 
 \section{\uppercase{State of the Art}}
 
-\noindent This section brings an overview of existing approaches to description of analytic methods and workflows. Then it briefly introduces the analytic methods suitable for electrophysiology research that we use for data analysis. Then the Semantic web technologies are described.
+\noindent This section brings an overview of existing approaches to description of analytic methods and workflows. Then it introduces the analytic methods suitable for electrophysiology research that we use for data analysis in our laboratory. Then the Semantic web technologies are briefly described.
 
 \subsection{Existing Approaches}
 
 The CARMEN Portal \cite{Watson07} (Code Analysis, Repository \& Modelling for e-Neuroscience) developed by the British National Node allows neuroscientists to save and share experimental data and services. CARMEN provides storage of services. There is a number of public services available such as data filters, neural spike detection and spike sorting methods. No formal semantics or metadata structures are used for description of these methods, they are described in a natural language.
 
-The Galaxy project \cite{goecks2010galaxy, blankenberg2010galaxy, giardine2005galaxy} is an open source workflows engine. A registered user is able to use methods and workflow tools provided by this system. Galaxy is focused on genome analysis; therefore, this system contains methods suitable for genome analysis. The methods are well described for the users with description of parameters and examples. It also includes ontology OBI (ontology for biomedical investigation) for formal description of semantic restrictions.
+The Galaxy project \cite{goecks2010galaxy, blankenberg2010galaxy, giardine2005galaxy} is an open source workflows engine. A registered user is able to use methods and workflow tools provided by this system. Galaxy is focused on genome analysis; therefore, this system contains methods suitable for genome analysis. The methods are well described for the users with description of parameters and examples. It also includes OBI ontology (ontology for biomedical investigation) for formal description of semantic restrictions.
 
-The Wings is an open source workflows engine. Its source code is available at GitHub. It is portal based system, so it is downloadable and runnable on local servers. Methods are described by ontologies (RDF). This description includes definition of semantic constrains such as allowed values, input/output cardinality, range, etc. The main disadvantage is a small community of developers and bugs (e.g. problem with adding a new method into the Wings system) that we found while trying to deploy the system on a server.
+The Wings is an open source workflows engine (its source code is available at GitHub) and portal based system downloadable and runnable on local servers. The methods the engine works with are described by ontologies (in the Resource Description Framework). This description includes definition of semantic constraints such as allowed values, input/output cardinality, range, etc. The main disadvantage is a~small community of developers and annoying bugs (e.g. difficulty with adding a new method into the Wings system) that we found while trying to deploy the system on a server.
 
-The overview shows that formal description of methods in terms of semantic constrains (e.g. allowed values) exists. However, proper description of input/output parameters allowing semantic comparison of methods is still not satisfactorily solved. Therefore, we propose description of methods that allows such comparison in this paper.
-
+This overview shows that the formal description of methods in terms of semantic constraints (e.g. allowed values) exists. However, the proper description of input/output parameters allowing semantic comparison of methods is still not satisfactorily solved. Therefore, we propose description of methods that allows such comparison in this paper.
 
 \subsection{Analytic Methods}
 
-\noindent We widely use the following signal preprocessing and processing methods: Averaging, FIR Filters, Matching Pursuit, Discrete and Continuous Wavelet transform, Fast Fourier transform, Hilbert-Huang transform, and neural networks. This section briefly describes principles of these algorithms. The metadata definition in the rest of this paper will designed for these methods. We admit that the set of methods is not limited; therefore, the design will allow extension of metadata definition.
+\noindent In our laboratory we widely use the following signal preprocessing and processing methods: averaging, FIR filters, Matching Pursuit, Discrete and Continuous Wavelet transform, Fast Fourier transform, Hilbert-Huang transform, and various neural networks. This section briefly describes the basic principles of these algorithms since metadata definitions that follow will be proposed just for these methods. We admit that the methods described in this paper are only a subset of a larger set of methods that can be used in signal preprocessing and processing. This is taken into account and the proposed design will allow straightforward extension of metadata definitions.
 
 Averaging \cite{Sanei07} is a common method for highlighting ERP waveforms. During the averaging of  the  same  kind  of  ERP  waveforms,  the  noise  is  reduced  and  the  waveform  is  highlighted. Since the background  EEG  has a higher  amplitude  then  ERP  waveforms, the averaging technique highlights the waveforms and suppress the background EEG \cite{Vidal77}.
 
 The Matching Pursuit method has been frequently used for continuous EEG processing. It decomposes any signal into a linear expansion of functions. At each iteration, a waveform is chosen in order to best match the
-significant structures of the signal. Typically, this part is approximated by a Gabor atom, which has the highest scalar
-product with the original signal, and then it is subtracted from the signal. This process is repeated until the whole signal is
-approximated by Gabor atoms with an acceptable error \cite{Vareka12}. For displaying results we implemented the time-frequency
-transformation known as Wigner-Ville transformation \cite{Quian02}. The input of this transformation is the set of chosen atoms.
+significant structures of the signal. Typically, this part is approximated by a Gabor atom, which has the highest scalar product with the original signal, and then it is subtracted from the signal. This process is repeated until the whole signal is approximated by Gabor atoms with an acceptable error \cite{Vareka12}. For displaying results we implemented the time-frequency transformation known as Wigner-Ville transformation \cite{Quian02}. The input of this transformation is the set of chosen atoms.
 
-Wavelet Transformation (WT) \cite{Ciniburk10} is a suitable method for analyzing and processing non-stationary signals such as EEG.
-WT has a good time and frequency localization, which is necessary for ERP detection. For EEG signal processing it is
-possible to use Continuous Wavelet Transformation or Discrete Wavelet Transformation. For visualization of wavelet result, the scalogram (Figure 1) is used.
+Wavelet Transformation (WT) \cite{Ciniburk10} is a suitable method for analyzing and processing non-stationary signals such as EEG. WT has a good time and frequency localization, which is necessary for ERP detection. For EEG signal processing it is possible to use Continuous Wavelet Transformation or Discrete Wavelet Transformation. For visualization of wavelet results, the scalogram (Figure 1) is used.
 
 \begin{figure}[!h]
 
@@ -92,32 +85,15 @@ possible to use Continuous Wavelet Transformation or Discrete Wavelet Transforma
   \label{fig:scalogram}
  \end{figure}
 
-The Fourier transform converts waveform data in the time domain into the frequency domain. Since artifacts usually have higher amplitude and basic frequency than a normal ERP component, this technique is useful for detecting artifacts
-within the EEG or ERP signal.
+The Fourier transform converts waveform data in the time domain into the frequency domain. Since artifacts usually have higher amplitude and basic frequency than a normal ERP component, this technique is useful for detecting artifacts within the EEG or ERP signal.
 
-Independent Component Analysis (ICA) \cite{Hyv01} is a method for blind signal separation and signal deconvolution.
-In the EEG/ERP domain, ICA can be used for artifact removal, ERPs detection, and - generally speaking - for detection
-and separation of every signal which is independent on EEG activity.
+Independent Component Analysis (ICA) \cite{Hyv01} is a method for blind signal separation and signal deconvolution. In the EEG/ERP domain, ICA can be used for artifact removal, ERPs detection, and, generally speaking, for detection and separation of every signal which is independent on EEG activity.
 
-The  Hilbert-Huang  transform  (HHT)  was  designed  to  analyze  nonlinear  and  non-stationary signal. It includes detection of ERP waveforms.
-More information about HHT can be found in \cite{Ciniburk11}.
+The  Hilbert-Huang  transform  (HHT)  was  designed  to  analyze  nonlinear  and  non-stationary signal. This also includes detection of ERP waveforms that is described in \cite{Ciniburk11}.
 
 \subsection{Semantic Web Technologies}
 
-\noindent The Semantic Web is a layered architecture. The first layer
-is called Resource Description Framework (RDF). RDF is
-a simple metadata representation framework, using URIs to
-identify web-based resources and a graph model for describing
-relationships between resources.
-
-Web ontology language (OWL) is a richer language and
-provides more complex constraints on the types of resources
-and their properties. OWL comes with a larger vocabulary,
-greater machine interpretability and stronger syntax than RDF.
-
-We use the OWL for developing an ontology for description of the analytic methods. Ontology is the theory of conceptualisation. In computing, ontology
-provides a means of formally representing the structure of objects and relations in an information system and associating meaning with them \cite{Sun07}.
-
+\noindent The Semantic Web is a layered architecture. The first layer is called Resource Description Framework (RDF). RDF is a simple metadata representation framework using URIs to identify web-based resources and a graph model for describing relationships between resources. Web ontology language (OWL) is a semantically richer language and provides more complex constraints on the types of resource and their properties. OWL comes with a larger vocabulary, greater machine interpretability and stronger syntax than RDF. We used OWL for developing an ontology for description of the analytic methods described above.
 
 \section{\uppercase{Metadata Definition}}
 
