@@ -6,17 +6,30 @@ A.~Kalyanpur, D.~Pastor, S.~B. and Padget, J. (2002).
 \newblock In {\em Proceedings of the International Conference on Software
   Engineering and Knowledge Engineering (SEKE)}.
 
+\bibitem[Blankenberg et~al., 2010]{blankenberg2010galaxy}
+Blankenberg, D., Kuster, G.~V., Coraor, N., Ananda, G., Lazarus, R., Mangan,
+  M., Nekrutenko, A., and Taylor, J. (2010).
+\newblock Galaxy: A web-based genome analysis tool for experimentalists.
+\newblock {\em Current protocols in molecular biology}, pages 19--10.
+
 \bibitem[Ciniburk, 2011]{Ciniburk11}
 Ciniburk, J. (2011).
 \newblock Hilbert-huang transform for erp detection. ph.d. thesis.
 \newblock Technical report, University of West Bohemia, Department of Computer
   Science and Engineering, Czech Republic.
 
-\bibitem[Ciniburk, 2010]{Ciniburk10}
-Ciniburk, J., M. R. M. P. R.~T. (2010).
+\bibitem[Ciniburk et~al., 2010]{Ciniburk10}
+Ciniburk, J., Moucek, R., Mautner, P., and Rondik, T. (2010).
 \newblock Erp components detection using wavelet transform and matching pursuit
   algorithm.
 \newblock In {\em DCII}, Prague.
+
+\bibitem[Giardine et~al., 2005]{giardine2005galaxy}
+Giardine, B., Riemer, C., Hardison, R.~C., Burhans, R., Elnitski, L., Shah, P.,
+  Zhang, Y., Blankenberg, D., Albert, I., Taylor, J., Miller, W.~C., Kent,
+  W.~J., and Nekrutenko, A. (2005).
+\newblock Galaxy: a platform for interactive large-scale genome analysis.
+\newblock {\em Genome research}, 15(10):1451--1455.
 
 \bibitem[Goecks et~al., 2010]{goecks2010galaxy}
 Goecks, J., Nekrutenko, A., Taylor, J., and Team, T.~G. (2010).
@@ -24,13 +37,13 @@ Goecks, J., Nekrutenko, A., Taylor, J., and Team, T.~G. (2010).
   reproducible, and transparent computational research in the life sciences.
 \newblock {\em Genome Biol}, 11(8):R86.
 
-\bibitem[Hyvarinen and Oja, 2001]{Hyv01}
-Hyvarinen, A., K.~J. and Oja, E. (2001).
+\bibitem[Hyvarinen et~al., 2001]{Hyv01}
+Hyvarinen, A., Karhunen, J., and Oja, E. (2001).
 \newblock Independent component analysis.
 \newblock In {\em Adaptive and Learning Systems for Signal Processing}, Prague.
 
-\bibitem[Oren and Decker, 2007]{Oren07}
-Oren, E., D. R. G. S. H.~A. and Decker, S. (2007).
+\bibitem[Oren et~al., 2007]{Oren07}
+Oren, E., Delbru, R., Gerke, S., Haller, A., and Decker, S. (2007).
 \newblock Activerdf: object-oriented semantic web programming.
 \newblock In {\em WWW '07: Proceedings of the 16th international conference on
   World Wide Web}, pages 817--824, New York, NY, USA.
@@ -68,8 +81,9 @@ Vidal, J.~J. (1977).
 \newblock Real-time detection of brain events in eeg.
 \newblock In {\em Proceedings of the IEEE}, volume~65, pages 633--641.
 
-\bibitem[Watson and Lord, 2007]{Watson07}
-Watson, P., J. T. P. G. G. F. A. J. F. M. L.~B. and Lord, P. (2007).
+\bibitem[Watson et~al., 2007]{Watson07}
+Watson, P., Jackson, T., Pitsilis, G., Gibson, F., Austin, J., Fletcher, M.,
+  Liang, B., and Lord, P. (2007).
 \newblock The carmen neuroscience server.
 \newblock In {\em Proceedings of the UK e-Science All hands Meeting}, pages
   135--141.

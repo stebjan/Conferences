@@ -35,7 +35,7 @@
 \section{\uppercase{Introduction}}
 \label{sec:introduction}
 
-\noindent Our research group at (anonymous) %University of West Bohemia in Pilsen]
+\noindent Our research group at the University of West Bohemia in Pilsen
 specializes in the research of human brain activity. We use the methods and techniques of electroencephalography (EEG) and event-related potentials (ERP). As the electrophysiology research grows, larger amounts of data are collected and more complex methods and workflows are used for data analysis. Typically, electrophysiology workflows used in our laboratory include preprocessing methods (e.g. filtering, baseline correction), signal processing methods (for example feature extraction methods, clustering and classification methods), and postprocessing (usually statistical) methods. To make the application of complex analytic methods and workflows reproducible, a need for identification and sharing of their appropriate descriptions arises. These descriptions would also allow developing automatic or semi-automatic systems for data analysis or constructing complex workflows in a more user friendly way. Then by defining proper metadata structures for analytic methods and workflows and by using suitable technologies for machine-processing the workflow systems can ensure the following procedures:
 
 \begin{itemize}
@@ -56,7 +56,7 @@ In this paper, we present a definition of the metadata structure that describes 
 
 The CARMEN Portal \cite{Watson07} (Code Analysis, Repository \& Modelling for e-Neuroscience) developed by the British National Node allows neuroscientists to save and share experimental data and services. CARMEN provides storage of services. There is a number of public services available such as data filters, neural spike detection and spike sorting methods. No formal semantics or metadata structures are used for description of these methods, they are described in a natural language.
 
-The Galaxy project \cite{goecks2010galaxy, blankenberg2010galaxy, giardine2005galaxy} is an open source workflows engine. A registered user is able to use methods and workflow tools provided by this system. Galaxy is focused on genome analysis; therefore, this system contains methods suitable for genome analysis. The methods are well described for the users with description of parameters and examples. It also includes OBI ontology (ontology for biomedical investigation) for formal description of semantic restrictions.
+The Galaxy project \cite{goecks2010galaxy}; \cite{blankenberg2010galaxy}; \cite{giardine2005galaxy} is an open source workflows engine. A registered user is able to use methods and workflow tools provided by this system. Galaxy is focused on genome analysis; therefore, this system contains methods suitable for genome analysis. The methods are well described for the users with description of parameters and examples. It also includes OBI ontology (ontology for biomedical investigation) for formal description of semantic restrictions.
 
 The Wings is an open source workflows engine (its source code is available at GitHub) and portal based system downloadable and runnable on local servers. The methods the engine works with are described by ontologies (in the Resource Description Framework). This description includes definition of semantic constraints such as allowed values, input/output cardinality, range, etc. The main disadvantage is a~small community of developers and annoying bugs (e.g. difficulty with adding a new method into the Wings system) that we found while trying to deploy the system on a server.
 
@@ -91,7 +91,7 @@ The  Hilbert-Huang  transform  (HHT)  was  designed  to  analyze  nonlinear  and
 
 \noindent The Semantic Web is a layered architecture. The first layer is called Resource Description Framework (RDF). RDF is a simple metadata representation framework using URIs to identify web-based resources and a graph model for describing relationships between resources. Web ontology language (OWL) is a semantically richer language and provides more complex constraints on the types of resource and their properties. OWL comes with a larger vocabulary, greater machine interpretability and stronger syntax than RDF.
 
-There are substantial differences between classic object-oriented languages such as Java or C\# and Semantic Web technologies. The semantics of classes and instances in RDF Schema is open-world and description logics-based while object-oriented type systems are closed-world and constraint-based \cite{Kalyanpur02}. The following list brings main differences between OOP and Semantic web \cite{Oren07}
+There are substantial differences between classic object-oriented languages such as Java or C\# and Semantic Web technologies. The semantics of classes and instances in RDF Schema is open-world and description logics-based while object-oriented type systems are closed-world and constraint-based \cite{Kalyanpur02}. The following list brings main differences between object-oriented programming (OOP) and Semantic web \cite{Oren07}
 
 \begin{itemize}
 
@@ -113,7 +113,7 @@ The main advantage of Semantic Web technologies (e.g. RDF or OWL language) is th
 
 \section{\uppercase{Metadata Definition and Ontology Development}}
 
-\noindent Because there is no suitable description of the methods used in electrophysiology, we proposed their semantic description by using a set of metadata. Describing analytic methods at a more specific level for workflow construction requires a detailed analysis of the methods' operations in terms of semantics of their and inputs and outputs.
+\noindent Because there is no suitable description of the methods used in electrophysiology, we proposed their semantic description by using a set of metadata. Describing analytic methods at a more specific level for workflow construction requires a detailed analysis of the methods' operations in terms of semantics of their inputs and outputs.
 
 The metadata identification originated from our experience with data analysis, expertise of co-workers from cooperating institutions, books describing principles of EEG/ERP design and data recording (e.g. \cite{Luck05}), and numerous scientific papers describing processing of EEG/ERP data. We defined the following metadata and their structure:
 \begin{itemize}
@@ -239,6 +239,8 @@ eegMethods#hasSignalValue">
 
 \noindent Figure 3 shows a tree of defined classes provided by the Protege.
 
+The structure of the ontology including defined terms, equivalent classes, subclasses, and used properties is designed for semantic comparison of input/output parameters. It is suitable for looking for the semantic similarity between input/output parameters of the consecutive methods. This will ensure the semantic compatibility of methods while putting them into a workflow.
+
 \begin{figure}[!h]
 
   \centering
@@ -261,7 +263,6 @@ The presented ontology is also easily extendable. It allows reusing existing cla
 \section*{\uppercase{Acknowledgements}}
 
 \noindent The work was supported by the UWB grant SGS-2013-039 Methods and Applications of Bio- and Medical Informatics.
-
 
 \vfill
 \bibliographystyle{apalike}
